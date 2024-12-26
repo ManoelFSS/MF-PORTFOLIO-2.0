@@ -1,21 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Stalinist+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
+  --background: #f0f0f0;
+  --text: #000000;
+  --logo-color: #000;
+  --text-color-primary: #ff9131;
+  --border-color:#ff9131;
   --foreground: #171717;
+  --btn-color :#000000;
+  --btn-border: trasparent;
+  --font-roboto: 'Roboto', sans-serif;
+  --font-stalinist-one: 'Stalinist One', cursive; /* Corrigido para o nome correto da fonte */
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.dark-mode {
+  --background:url('../../public/dark.jpg') no-repeat center center / cover;
+  --text: #fff;
+  --foreground: #ededed;
+  --logo-color: #fff;
+  --btn-border: #ff9131;
+  --btn-color: trasparent;
 }
+
+
+/* scheme dark root ultilizado de forma automatica pelo sistema caso o usuario tenha ativado a escala de cores*/
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --background:url('../../public/dark.jpg') no-repeat center center / cover;
+    --foreground: #ededed;
+    --text: #fff;
+  }
+} */
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-roboto); /* Aplicando a fonte Roboto ao corpo */
+}
+
+h1 {
+  font-family: var(--font-stalinist-one); /* Usando Stalinist One para o cabeçalho */
+}
+
+.active {  
+  color: var(--text-color-primary);
 }

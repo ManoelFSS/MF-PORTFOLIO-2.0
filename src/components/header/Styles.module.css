@@ -1,0 +1,25 @@
+
+.header {
+    @apply  
+    w-full 
+    flex 
+    items-center
+    justify-between 
+    pl-5  
+    pr-5
+    bg-[var(--background)] 
+    border-b-[0.6vh] 
+    border-[var(--border-color)] 
+    relative
+}
+
+.title {        
+    @apply
+    text-[var(--logo-color)] 
+    text-[6vh] 
+    font-bold 
+    tracking-[0.2rem] 
+    pt-2 
+    transition-colors   
+    cursor-pointer
+}
