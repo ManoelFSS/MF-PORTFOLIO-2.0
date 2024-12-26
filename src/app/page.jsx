@@ -8,7 +8,7 @@ import { IoLogoWhatsapp } from "react-icons/io";
 
 const Home = () => {
   return (
-    <search className=" h-[calc(100vh-11vh)] bg-[var(--background)] flex items-center  flex-wrap-reverse justify-around pl-4 pr-4 tracking-[0.1rem] gap-[2vh]  " >
+    <search className=" h-[calc(100svh-11svh)] bg-[var(--background)] flex items-center  flex-wrap-reverse justify-around pl-4 pr-4 tracking-[0.1rem] gap-[2vh]  " >
       <div>
         <p className="text-[var(--text) font-extrabold] text-[2.5vh] sm:text-[3.5vh] md:text-[5vh] ">OLÁ, SOU O</p>
         <h2 className="text-[var(--text) font-extrabold] text-[4vh] sm:text-[4.5vh] md:text-[7vh] text-[var(--text-color-primary)] font-extrabold ">MANOEL FERNANDO :)</h2>
