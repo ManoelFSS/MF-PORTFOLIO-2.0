@@ -57,11 +57,11 @@ const Home = () => {
 
   return (
     <search className=" h-[calc(100svh-11svh)] bg-[var(--background)] flex items-center  flex-wrap-reverse justify-around   tracking-[0.1rem] gap-[2vh]  " >
-      <div className='w-[65vh] sm:w-[60vh] md:w-[68vh]'>
-        <div className='h-[20vh]  md:h-[28vh] pl-5 '>
+      <div className='w-[65vh] sm:w-[60vh] md:w-[60vh]'>
+        <div className='h-[20vh]  md:h-[28vh] pl-5 sm:pl-0 md:pl-0 '>
           <p className="text-[var(--text) font-extrabold] text-[3vh] sm:text-[3.5vh] md:text-[5vh] ">{displayText}</p>
-          <h2 className="text-[var(--text) font-extrabold] text-[4vh] sm:text-[4.5vh] md:text-[5.5vh] text-[var(--text-color-primary)] font-extrabold   ">{displayName}</h2>
-          <p className="text-[var(--text) font-extrabold] text-[3vh] sm:text-[3.5vh] md:text-[4vh] ">{displayDev}</p>
+          <h2 className="text-[var(--text) font-extrabold] text-[3.4vh] sm:text-[4.2vh] md:text-[5.2vh] text-[var(--text-color-primary)] font-extrabold   ">{displayName}</h2>
+          <p className="text-[var(--text) font-extrabold] text-[2.5vh] sm:text-[3.5vh] md:text-[4vh] ">{displayDev}</p>
         </div>
         <div>
           <div className=' flex justify-center gap-[2vh] pt-5'>
