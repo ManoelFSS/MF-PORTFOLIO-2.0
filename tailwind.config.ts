@@ -13,10 +13,11 @@ export default {
         foreground: "var(--foreground)",
       },
       screens: {
-        "1xl": "280px",
-        "2xl": "375px",
-        "3xl": "425px",
-        "4xl": "578px",
+        "1xl": "321px",
+        "2xl": "376px",
+        "3xl": "450px",
+        "4xl": "590px",
+        "5xl": "890px",
       }
     },
   },

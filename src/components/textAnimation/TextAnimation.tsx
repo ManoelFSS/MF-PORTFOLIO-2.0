@@ -53,18 +53,18 @@ const TextAnimation = () => {
     }, []);
 
     return (
-        <div className='h-[20vh] pl-3 md:h-[22vh] lg:h-[25vh]  w-full  flex flex-col  bg-[var(--background)] '>
-            <p className="text-[var(--text) font-extrabold] 1xl:text-[4vw] 4xl:text-[2vw] ">
+        <div className=' border-[0.4vh]  h-[25vh]  max-2xl:h-[16vh] max-1xl:h-[22vh] landscape:h-[46vh]   min-w-[55vh] landscape:min-w-full max-4xl:min-w-[48vh] max-3xl:min-w-[45vh] max-2xl:min-w-[44vh] max-1xl:min-w-[60vh]  border-[var(--text-color-primary)] flex flex-col pt-1 pb-1  bg-[var(--background)] '>
+            <p className="text-[var(--text) font-extrabold] text-[1.5rem] max-3xl:min-text-[1.2rem]  max-2xl:text-[1.1rem] ">
                 {displayText}
-                {cursorVisibleText1 && <span className="cursor">|</span>} {/* Barra piscante para o texto 1 */}
+                {cursorVisibleText1 && <span className="cursor text-[var(--text-color-primary)]">|</span>} {/* Barra piscante para o texto 1 */}
             </p>
-            <h2 className="text-[var(--text) font-extrabold] 1xl:text-[6.6vw]  3xl:text-[5.5vw]  4xl:text-[3vw] text-[var(--text-color-primary)] font-extrabold">
+            <h2 className="text-[var(--text) font-extrabold] text-[2rem] max-3xl:text-[1.7rem]  max-2xl:text-[1.6rem]   text-[var(--text-color-primary)] font-extrabold">
                 {displayName}
-                {cursorVisibleText2 && <span className="cursor">|</span>} {/* Barra piscante para o texto 2 */}
+                {cursorVisibleText2 && <span className="cursor text-[var(--text-color-primary)">|</span>} {/* Barra piscante para o texto 2 */}
             </h2>
-            <p className="text-[var(--text) font-extrabold] 1xl:text-[4vw] 4xl:text-[2vw] ">
+            <p className="text-[var(--text) font-extrabold] text-[1.5rem] max-3xl:text-[1.3rem] max-2xl:text-[1.1rem]  ">
                 {displayDev}
-                {cursorVisibleText3 && <span className="cursor">|</span>} {/* Barra piscante para o texto 3 */}
+                {cursorVisibleText3 && <span className="cursor text-[var(--text-color-primary)]">|</span>} {/* Barra piscante para o texto 3 */}
             </p>
 
             <style jsx>{`

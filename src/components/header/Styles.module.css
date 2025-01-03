@@ -8,7 +8,7 @@
     pl-5  
     pr-5
     bg-[var(--background)] 
-    border-b-[0.6vh] 
+    border-b-[0.3vh] 
     border-[var(--border-color)] 
     relative
 }
